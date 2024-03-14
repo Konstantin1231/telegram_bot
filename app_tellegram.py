@@ -13,6 +13,7 @@ print("Bot started")
 app = Flask(__name__)
 load_dotenv()
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
+print(BOT_TOKEN)
 
 def message_parser(message):
     chat_id = message['message']['chat']['id']
