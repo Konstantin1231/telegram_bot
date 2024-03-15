@@ -19,8 +19,6 @@ def message_parser(message):
     chat_id = message['message']['chat']['id']
     text = message['message']['text']
     user_name = message['message']['from']['first_name']
-    print('Chat id', chat_id)
-    print('Message', text)
     return chat_id, text, user_name
 
 # to send a message
@@ -34,7 +32,6 @@ def send_message(chat_id, text):
 def index():
     if request.method == 'POST':
         msg = request.get_json()
-        print(msg)
         try:
             chat_id, user_message,  user_name = message_parser(msg)
         except BaseException:
@@ -50,4 +47,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host = "0.0.0.0" , debug=True, port=5000)
+    app.run(host = "0.0.0.0" , debug=False, port=5000)
