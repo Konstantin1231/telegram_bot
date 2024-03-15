@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 import requests
 import icecream as ic
 
-# https://api.telegram.org/bot7081425288:AAFzTGCxwPCQN5kXfklmTEvg2lSwU2yuWF0/setWebhook?url=https://1698-2a04-ee41-83-c32d-f18e-1f88-a914-d70f.ngrok-free.app
 print("Bot started")
 
 app = Flask(__name__)
