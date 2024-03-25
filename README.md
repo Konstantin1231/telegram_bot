@@ -23,7 +23,7 @@ Before you can run BabayanBot, make sure you have the following installed:
 ### Installation
 
 1. **Clone the Repository:**
-'''
+´´´
 git clone https://github.com/yourusername/BabayanBot.git
 cd BabayanBot
-'''
+´´´
