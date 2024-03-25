@@ -12,18 +12,4 @@ BabayanBot is a project born out of the desire to poke fun at our friend Babayan
 - **RAG Integration for Memory Recall:** To ensure the bot's responses are not just random but also reflect Babayan's personality and past interactions, we've incorporated a RAG model. This model helps the bot recall previous interactions or facts related to Babayan, making the conversations feel more authentic.
 - **Contribute to Babayan's Memory:** Anyone can contribute to or tweak Babayan's memory bank to enhance the bot's responses. Visit our dedicated Hugging Face space at [Babayan's Data](https://huggingface.co/spaces/koq1231/Babayan_data) to contribute.
 
-## Getting Started
 
-### Prerequisites
-
-Before you can run BabayanBot, make sure you have the following installed:
-- Python 3.8 or later
-- `pip` for installing Python packages
-
-### Installation
-
-1. **Clone the Repository:**
-´´´
-git clone https://github.com/yourusername/BabayanBot.git
-cd BabayanBot
-´´´
